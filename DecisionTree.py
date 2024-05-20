@@ -35,5 +35,5 @@ Dtree.fit(X_train, y_train)
 y_pred = Dtree.predict(X_test)
 cm = confusion_matrix(y_test, y_pred)
 print(cm)
-
+# Mô phỏng
 plot_confusion_matrix(Dtree, X_test, y_test)
